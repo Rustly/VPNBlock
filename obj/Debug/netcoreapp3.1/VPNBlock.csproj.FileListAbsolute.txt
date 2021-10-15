@@ -1,0 +1,17 @@
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\VPNBlock.deps.json
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\VPNBlock.dll
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\VPNBlock.pdb
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\OTAPI.dll
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\TerrariaServer.exe
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\TShockAPI.dll
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\Newtonsoft.Json.xml
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\OTAPI.pdb
+C:\Users\zachm\source\repos\VPNBlock\bin\Debug\netcoreapp3.1\TerrariaServer.pdb
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.csproj.AssemblyReference.cache
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.AssemblyInfoInputs.cache
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.AssemblyInfo.cs
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.csproj.CoreCompileInputs.cache
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.csproj.CopyComplete
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.dll
+C:\Users\zachm\source\repos\VPNBlock\obj\Debug\netcoreapp3.1\VPNBlock.pdb

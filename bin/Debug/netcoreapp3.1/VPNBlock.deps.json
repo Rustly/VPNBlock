@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VPNBlock/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.0.0",
+          "OTAPI": "1.4.2.3",
+          "TerrariaServer": "1.4.2.3",
+          "TShockAPI": "4.5.5.0"
+        },
+        "runtime": {
+          "VPNBlock.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.3.21018"
+          }
+        }
+      },
+      "OTAPI/1.4.2.3": {
+        "runtime": {
+          "OTAPI.dll": {
+            "assemblyVersion": "1.4.2.3",
+            "fileVersion": "1.4.2.3"
+          }
+        }
+      },
+      "TerrariaServer/1.4.2.3": {
+        "runtime": {
+          "TerrariaServer.exe": {
+            "assemblyVersion": "1.4.2.3",
+            "fileVersion": "1.4.2.3"
+          }
+        }
+      },
+      "TShockAPI/4.5.5.0": {
+        "runtime": {
+          "TShockAPI.dll": {
+            "assemblyVersion": "4.5.5.0",
+            "fileVersion": "4.5.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VPNBlock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OTAPI/1.4.2.3": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TerrariaServer/1.4.2.3": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TShockAPI/4.5.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
