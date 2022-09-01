@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lpbs3KRijIhNNEWlvVGM/nxHmRzEpWC2p8YqGVMu/WQKWhTiGGdi9cU/O2zVbgTL4gowY3470eA8iz6Dn4Zb6A==",
+  "dgSpecHash": "4Q+gG/7ramnj+wC/8cj2YdD5Vvh48OYaOAee8U/JR3EEa7TgX4N20mBvcjwRMB7SsejpBrxKTdynLzkTdbIjmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zachm\\source\\repos\\VPNBlock\\VPNBlock.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "G:\\Github\\VPNBlock\\VPNBlock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rustl\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Rustl\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Rustl\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

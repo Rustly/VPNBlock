@@ -9,9 +9,9 @@
       "VPNBlock/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.0.0",
-          "OTAPI": "1.4.2.3",
-          "TerrariaServer": "1.4.2.3",
-          "TShockAPI": "4.5.5.0"
+          "OTAPI": "1.4.3.6",
+          "TerrariaServer": "1.4.3.6",
+          "TShockAPI": "4.5.17.0"
         },
         "runtime": {
           "VPNBlock.dll": {}
@@ -25,27 +25,43 @@
           }
         }
       },
-      "OTAPI/1.4.2.3": {
+      "OTAPI/1.4.3.6": {
         "runtime": {
           "OTAPI.dll": {
-            "assemblyVersion": "1.4.2.3",
-            "fileVersion": "1.4.2.3"
+            "assemblyVersion": "1.4.3.6",
+            "fileVersion": "1.4.3.6"
           }
         }
       },
-      "TerrariaServer/1.4.2.3": {
+      "TerrariaServer/1.4.3.6": {
         "runtime": {
           "TerrariaServer.exe": {
-            "assemblyVersion": "1.4.2.3",
-            "fileVersion": "1.4.2.3"
+            "assemblyVersion": "1.4.3.6",
+            "fileVersion": "1.4.3.6"
           }
         }
       },
-      "TShockAPI/4.5.5.0": {
+      "TShockAPI/4.5.17.0": {
         "runtime": {
           "TShockAPI.dll": {
-            "assemblyVersion": "4.5.5.0",
-            "fileVersion": "4.5.5.0"
+            "assemblyVersion": "4.5.17.0",
+            "fileVersion": "4.5.17.0"
+          }
+        }
+      },
+      "MySql.Data/6.9.8.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "6.9.8.0",
+            "fileVersion": "6.9.8.0"
+          }
+        }
+      },
+      "Mono.Data.Sqlite/2.0.0.0": {
+        "runtime": {
+          "Mono.Data.Sqlite.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       }
@@ -62,17 +78,27 @@
       "serviceable": false,
       "sha512": ""
     },
-    "OTAPI/1.4.2.3": {
+    "OTAPI/1.4.3.6": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "TerrariaServer/1.4.2.3": {
+    "TerrariaServer/1.4.3.6": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "TShockAPI/4.5.5.0": {
+    "TShockAPI/4.5.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/6.9.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mono.Data.Sqlite/2.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

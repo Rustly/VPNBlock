@@ -1,32 +1,35 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.IO;
 
 namespace VPNBlock
 {
 	public class Config
 	{
-		[JsonProperty("enabled")]
+		private static readonly string _path = Path.Combine(TShockAPI.TShock.SavePath, "vpnblock.json");
+
+		public static Config Read()
+		{
+			try
+			{
+				var res = new Config();
+				if (File.Exists(_path))
+					res = JsonConvert.DeserializeObject<Config>(File.ReadAllText(_path));
+				File.WriteAllText(_path, JsonConvert.SerializeObject(res, Formatting.Indented));
+				return res;
+			}
+			catch (Exception ex)
+			{
+				TShockAPI.TShock.Log.Error(ex.ToString());
+			}
+
+			return null;
+		}
+
 		public bool Enabled { get; set; } = true;
 
-		[JsonProperty("max-connections-per-ip")]
-		public int MaxConnectionsPerIp { get; set; } = 1;
+		public int MaxConnectionsPerIp { get; set; } = 2;
 
-		[JsonProperty("recalibration-time-milliseconds")]
-		public int RecalibrationTimeMilliseconds { get; set; } = 5000;
-
-		public void Verify()
-		{
-			if (MaxConnectionsPerIp < 1)
-			{
-				Console.WriteLine($"{MaxConnectionsPerIp} is an invalid value for config property: max-connections-per-ip. Minimum value is 1.");
-				MaxConnectionsPerIp = 1;
-			}
-
-			if (RecalibrationTimeMilliseconds < 1000)
-			{
-				Console.WriteLine($"{RecalibrationTimeMilliseconds} is an invalid value for config property: recalibration-time-milliseconds. Minimum value is 1000.");
-				RecalibrationTimeMilliseconds = 1000;
-			}
-		}
+		public string ContactEmail { get; set; }
 	}
 }
